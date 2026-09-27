@@ -21,4 +21,4 @@ jobs:
 					aws-region: ${{ secrets.AWS_REGION }}
 
 			- name: Upload site to S3
-				run: aws s3 sync ./ s3://tushar-19\ --delete
+				run: aws s3 sync ./ s3://tushar-19 \ --delete
